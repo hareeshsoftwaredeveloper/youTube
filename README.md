@@ -9,3 +9,6 @@
       - Buttons List
       - Video container
         - video card
+    - Watch page
+      - Live chat
+      - Comments

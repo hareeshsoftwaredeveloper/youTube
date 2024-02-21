@@ -17,7 +17,7 @@ const Header = () => {
   }
 
   const [searchQuery, setSearchQuery] = useState("")
-  console.log(searchQuery)
+  
 
   const [suggestions, setSuggestions] = useState([])
   const [showSuggestions, setShowSuggestions]=useState(false)
