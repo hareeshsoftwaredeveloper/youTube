@@ -14,7 +14,7 @@ const PremiumBanner = () => {
     return (
         <>
             {showAdd &&
-                <div className='flex justify-between'>
+                <div className='flex justify-between mt-24 -mb-24'>
                     <div>
                         <img alt='premium-icon' className="w-36" src={youtubePremiumIcon} />
                         <h1 className='t text-4xl font-bold w-[50%] -mt-6 ml-3'>Buy  YouTube Premium prepaid plans with UPI </h1>

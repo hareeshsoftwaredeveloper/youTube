@@ -52,7 +52,7 @@ const Header = () => {
  
 
   return (
-      <div className='grid grid-flow-col p-5 m-2 shadow-lg fixed top-0 w-[100%] z-20 mb-32 '>
+      <div className='grid grid-flow-col p-5 mx-2  fixed top-0 left-0 w-full bg-white shadow-lg z-50'>
           <div className='flex col-span-1'>
             <img alt='logo' onClick={showSidebar}  className='h-8 cursor-pointer hover:bg-gray-300 p-2 rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgz8qMxRmaHif6zYN0OyOJ2zi8gBulBwLPnw&usqp=CAU'/>
             <img alt="youtube-logo" className='h-8 mx-6' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEynCGDrFj3BQG1Aff7q4ARbWM0s7FK8jfng&usqp=CAU'/>

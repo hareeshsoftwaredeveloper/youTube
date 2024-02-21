@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const SidebarMiniView = () => {
   
   return (
-    <div className='pr-8 pl-4 py-3 col-span-1'> 
+    <div className=' py-3 col-span-1 -ml-6 '> 
       <Link to="/">
           <div className='mb-8 flex flex-col items-center cursor-pointer hover:bg-gray-300 py-2 rounded-lg' >
               <img alt='home' className='h-8' src={homeIcon} />

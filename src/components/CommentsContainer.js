@@ -2,7 +2,9 @@ import React from 'react'
 
 const CommentsContainer = () => {
   return (
-    <div>CommentsContainer</div>
+      <div>
+          <h1 className='text-xl font-bold'>Comments:</h1>
+    </div>
   )
 }
 

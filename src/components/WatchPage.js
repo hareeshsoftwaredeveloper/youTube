@@ -15,14 +15,14 @@ const WatchPage = () => {
         dispatch(closeMenu())
     },[])
     return (
-      <>
-        <div className='g col-span-11'>
-          <iframe width="1000" height="400" src={"https://www.youtube.com/embed/"+searchParams.get("v")} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <div className='flex flex-col'>
+        <div className='g'>
+          <iframe width="700" height="400" src={"https://www.youtube.com/embed/" + searchParams.get("v")} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         <div>
           <CommentsContainer/>
         </div>
-      </>
+      </div>
   )
 }
 

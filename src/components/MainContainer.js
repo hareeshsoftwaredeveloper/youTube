@@ -5,7 +5,7 @@ import PremiumBanner from './PremiumBanner'
 
 const MainContainer = () => {
   return (
-      <div>
+      <div className='col-span-10 '>
          <ButtonList />
           <PremiumBanner/>
           <VideoContainer/>
